@@ -2,7 +2,8 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println(calc("1 / 2"));
+        String result = calc("1 + 2");
+        System.out.println(result);
 
     }
     public static String calc(String input) {
