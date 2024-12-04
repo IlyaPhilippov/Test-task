@@ -1,10 +1,13 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        String result = calc("1 + 2");
+        Scanner in = new Scanner(System.in);
+        String input = in.nextLine();
+        String result = calc(input);
         System.out.println(result);
-
     }
     public static String calc(String input) {
         int result = 0;
